@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  margin-top: 20px;
+}
+.hr {
+  margin-top: 10px;
+  border: 2px solid rgb(92, 87, 87);
+  width: 200px;
+}
+.handler {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.increment_decrement {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+button {
+  width: 80px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+}
+.factor {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.factorInput {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green {
+  background-color: green;
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 40px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white {
+  background-color: white;
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 40px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: red;
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 40px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
